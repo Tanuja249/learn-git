@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #fff;
+  background-color: #111;
+}
+
+.parent{
+  
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  
+}
+.App{
+ width:  300px;
+ border: 1px solid white;
+ padding: 20px;
+ text-align: center;
+ border-radius: 10px;
+   background-color: #222;
+   
+  
+}
+.App img{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  
+}
+.App p{
+  margin: 20px 10px;
+}
+
+.App button{
+  padding: 10px 20px;
+  border: none;
+  background-color: white;
+  colour: black;
+  border-radius: 5px;
+  cursor: pointer;
+ 
+
+}
+ 
