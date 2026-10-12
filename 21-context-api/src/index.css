@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+.light {
+   display: flex;
+   background-color: lightseagreen;
+   justify-content: space-between;
+   align-items: center;
+   padding: 12px 40px;
+}
+
+
+
+.dark{
+  background-color: darkslategray;
+}
+
+.nav2 {
+    display: flex;
+    gap: 30px;
+}
